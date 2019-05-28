@@ -2,3 +2,6 @@
 function theBeatlesPlay(musicians, instruments){
   console.log(musicians, instruments);
 }
+
+var musicians = [];
+function forLoop
