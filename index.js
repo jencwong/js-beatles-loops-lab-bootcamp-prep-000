@@ -19,14 +19,10 @@ function johnLennonFacts(facts){
   
 function iLoveTheBeatles(number){
   var newPhrase = [];
- function doWhileLoop(number){
-   var i = 0;
-   function incrementVariable(){
-     i = 15 - i;
-     return i;
-   }
-   do{ 
-     console.log("I love the Beatles!");
-   } while (incrementVariable()<15);
- } 
+   do { 
+     newPhrase.push("I love the Beatles!");
+     number++;
+   } while (number<15);
+   return newPhrase;
 }  
+
