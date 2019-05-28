@@ -4,4 +4,6 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 var musicians = [];
-function forLoop
+function forLoop(musicians){
+  for (let i = 0; i)
+}
