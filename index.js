@@ -5,5 +5,10 @@ function theBeatlesPlay(musicians, instruments){
 
 var musicians = [];
 function forLoop(musicians){
-  for (let i = 0; i)
+  for (let i = 0; i<5; i++){
+    if (i === 1){
+      console.log ("musician}, ${instruments};
+      
+    }
+  }
 }
