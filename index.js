@@ -1,11 +1,9 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
-  console.log(musicians, instruments);
+  var phrases = [];
+  for (var i = 0; i < musicians.length; i++) {
+    phrases.push(musicians[i] + " plays " + instruments[i]);
+  }
+  return phrases;
 }
-
-var musicians = [];
-function forLoop(musicians){
-  for (let i = 0; i<5; i++){
-      console.log (musicians, instruments);
-    }
-}
+  
