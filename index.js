@@ -22,7 +22,7 @@ function iLoveTheBeatles(number){
  function doWhileLoop(number){
    var i = 0;
    function incrementVariable(){
-     i = 15 -i;
+     i = 15 - i;
      return i;
    }
    do{ 
